@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankkart</title>
+    <style>
+        body{
+            background-color:darkkhaki;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #card{
+            border: 1px solid crimson;
+            border-radius: 10px;
+            width: 450px;
+            height: 230px;
+            margin-top: 50px;
+            margin-left: 300px;
+            position: absolute;
+            background-color: crimson;
+        }
+
+        #ziraat{
+            border: 2px rgb(228, 233, 237);
+            border-radius: 7px;
+            background-color: rgb(229, 234, 239);
+            width: 190px;
+            height: 45px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+            position: absolute;
+            color: black;           
+        }
+
+        p{
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 3px;
+        }
+
+        #bank{
+            border: 1px  wheat;
+            color: white;
+            width: 180px;
+            height: 30px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size:xx-large;
+            position: relative;
+            letter-spacing: 5px;
+            float: right;
+            margin-right: 35px;
+            margin-top: 8px;   
+        }
+
+        #number{
+            border: 1px;
+            width: 230px;
+            height: 26px;
+            margin-top: 120px;
+            margin-left: 25px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size:20px;
+            position: absolute;
+        }
+
+        #valid{
+            border: 1px ;
+            font-size: 11px;
+            color: white;
+            width: 90px;
+            height: 40px;
+            margin-left: 140px;
+            margin-top: 153px;
+            position: absolute;
+        }
+
+        #valid b{
+            font-size: large;
+            position: absolute;
+            margin-top: -10px;
+            margin-left: 9px;
+        }
+
+        #name{
+            border: 1px ;
+            color: white;
+            width: 190px;
+            height: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+            text-align: center;
+            margin-left: 25px;
+            margin-top: 200px;
+            position: absolute;
+        }
+
+        #foto{
+            border: 1px;
+            width: 130px;
+            height: 60px;
+            margin-left: 340px;
+            margin-top: 160px;
+            position: relative;
+            color: white;
+        }
+
+        #triangle{
+           border: 1px; 
+           border-color: transparent white transparent transparent;
+           border-style: solid;
+           border-width: 10px 20px 10px 0px;
+           width: 0px;
+           height: 0px;
+           position: relative;
+           margin-top:-130px;
+           margin-left: 40px;
+        }
+
+        #contactless{
+            border: 1px;
+            width: 50px;
+            height: 30px;
+            margin-left: 370px;
+            margin-top: -25px;
+            background-color: crimson;
+        }
+
+        #button{
+            border: 1px solid coral;
+            width: 60px;
+            height: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
+            margin-left: 350px;
+        }
+
+        .other{
+            width: 190px;
+            height: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 300px;
+            margin-top: 180px;
+            background-color: crimson;
+            color: white;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <form action="bankkart2.html">
+        <input type="submit" value="Kartın arkayüzünü göster" class="other">
+      </form>
+    
+    <div id="card">
+        <div id="ziraat">
+            <p><strong>Ziraat</strong> Bankası</p>
+        </div>
+        <div id="bank">
+            bankkart
+        </div>
+        <div id="number">
+            1111 2222 3333 4444 
+        </div>
+        <div id="valid">
+            VALID<br> 
+            THRU <b>05/19</b>
+        </div>
+        <div id="name">
+            NAME SURNAME
+        </div>
+        <div id="foto">
+            <img src="visalogo.jpg" width="90px"
+            height="55px">
+            
+        </div>
+        <div id="triangle">
+        </div>
+        <div id="contactless">
+            <img src="contactless.jpg" class="con" 
+            width="50px" height="30px">
+        </div>
+    </div>
+    
+</body>
+</html>
